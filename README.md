@@ -1,14 +1,14 @@
 # splunk-web-attack-detection-
 Threat hunting project using Splunk (HTTP log analysis)
-# 🔍 Web Attack Detection using Splunk
+# Web Attack Detection using Splunk
 
-## 📌 Objective
+## Objective
 
 To detect suspicious web activity and identify potential attacks by analyzing Apache HTTP logs using Splunk SIEM.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 * Splunk SIEM
 * SPL (Search Processing Language)
@@ -16,7 +16,7 @@ To detect suspicious web activity and identify potential attacks by analyzing Ap
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 * Apache HTTP log dataset (~10,000 events)
 * Fields analyzed:
@@ -28,7 +28,7 @@ To detect suspicious web activity and identify potential attacks by analyzing Ap
 
 ---
 
-## ⚙️ Project Workflow
+##  Project Workflow
 
 ### 1. Data Ingestion
 
@@ -53,7 +53,7 @@ To detect suspicious web activity and identify potential attacks by analyzing Ap
 
 ---
 
-## 🔎 Key SPL Queries
+## Key SPL Queries
 
 ### Identify Top IPs
 
