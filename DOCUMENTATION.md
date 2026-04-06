@@ -1,14 +1,14 @@
-# 📘 Project Documentation: Web Attack Detection using Splunk
+# Project Documentation: Web Attack Detection using Splunk
 
 ---
 
-## 🎯 Objective
+## Objective
 
 The objective of this project is to detect suspicious web activity and identify potential attacks by analyzing Apache HTTP logs using Splunk SIEM.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 * Splunk SIEM
 * SPL (Search Processing Language)
@@ -16,7 +16,7 @@ The objective of this project is to detect suspicious web activity and identify 
 
 ---
 
-## 📊 Dataset Details
+## Dataset Details
 
 * Source: Apache HTTP log dataset
 * Size: ~10,000 events
@@ -29,7 +29,7 @@ The objective of this project is to detect suspicious web activity and identify 
 
 ---
 
-## ⚙️ Project Workflow
+##  Project Workflow
 
 ### 1. Data Ingestion
 
@@ -89,12 +89,12 @@ The IP demonstrated:
 * Access to multiple unique paths
 * Non-human browsing pattern
 
-➡️ This indicates:
+This indicates:
 **Directory Scanning / Web Reconnaissance Attack**
 
 ---
 
-## 🕒 Timeline of Activity
+## Timeline of Activity
 
 * Initial request from IP
 * Rapid access to multiple endpoints
@@ -102,7 +102,7 @@ The IP demonstrated:
 
 ---
 
-## 🚨 Indicators of Compromise (IOC)
+## Indicators of Compromise (IOC)
 
 * Suspicious IP: 144.76.95.39
 * Multiple invalid URL requests
@@ -110,7 +110,7 @@ The IP demonstrated:
 
 ---
 
-## 📈 Visualization
+## Visualization
 
 * Created Splunk dashboards including:
 
@@ -121,13 +121,13 @@ The IP demonstrated:
 
 ---
 
-## 🧠 Conclusion
+## Conclusion
 
 The project successfully identified suspicious web activity using log analysis techniques. The behavior of the detected IP strongly indicates reconnaissance activity aimed at discovering hidden web resources.
 
 ---
 
-## 🔐 Recommendations
+## Recommendations
 
 * Block suspicious IP addresses
 * Implement rate limiting
