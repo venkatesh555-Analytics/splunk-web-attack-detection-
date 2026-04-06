@@ -42,9 +42,9 @@ The objective of this project is to detect suspicious web activity and identify 
 
 * Verified log data using:
 
-  ```
+
   index=*
-  ```
+ 
 * Identified available fields (clientip, uri_path, status)
 
 ---
