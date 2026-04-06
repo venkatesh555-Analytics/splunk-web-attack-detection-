@@ -39,9 +39,9 @@ To detect suspicious web activity and identify potential attacks by analyzing Ap
 
 * Verified logs using:
 
-  ```
+  
   index=*
-  ```
+  
 * Identified key fields for analysis
 
 ### 3. Detection Strategy
